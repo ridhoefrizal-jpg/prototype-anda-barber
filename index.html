@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <title>ANDA BARBER STUDIO | Urban Grooming &amp; Hair Treatment</title>
+  <meta name="description" content="Discover your style at ANDA BARBER STUDIO. Explore haircut, grooming, and hair treatment services. Book your appointment through WhatsApp.">
+  <meta name="theme-color" content="#111111">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ANDA BARBER STUDIO | Urban Grooming &amp; Hair Treatment">
+  <meta property="og:description" content="Discover your style at ANDA BARBER STUDIO. Explore haircut, grooming, and hair treatment services. Book your appointment through WhatsApp.">
+  <!-- After deploying, change this to the full URL of the image -->
+  <meta property="og:image" content="barber-at-work.jpg">
+  <meta property="og:image:alt" content="Barbers cutting customers' hair at ANDA BARBER STUDIO">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon placeholder (inline, no file needed) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23111'/%3E%3Cpath d='M14 48 32 14 50 48H42L32 28 22 48Z' fill='%23B6F04A'/%3E%3C/svg%3E">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured data: only facts supplied by the business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "ANDA BARBER STUDIO",
+    "slogan": "YOUR STYLE. YOUR RULES.",
+    "telephone": "+62 815-4147-8281",
+    "sameAs": ["https://www.tiktok.com/@anda_haircut?_r=1&_t=ZS-9BOoiCOBdvY"],
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "09:00",
+      "closes": "21:00"
+    }]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= HEADER / NAVIGATION ================= -->
+  <header class="site-header" id="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="ANDA BARBER STUDIO, back to top">
+        <span class="brand__mark">ANDA</span>
+        <span class="brand__sub">BARBER STUDIO</span>
+      </a>
+
+      <nav class="nav-menu" id="primary-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#location">Location</a></li>
+        </ul>
+        <a class="btn btn--lime nav-cta" href="#booking">Book an Appointment</a>
+      </nav>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span class="nav-toggle__bars" aria-hidden="true"><span></span><span></span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__bg">
+        <img src="barber-at-work.jpg" width="1600" height="1200"
+             alt="Two barbers cutting customers' hair inside ANDA BARBER STUDIO"
+             fetchpriority="high" decoding="async">
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow eyebrow--lime">Urban Grooming Experience</p>
+          <h1 class="hero__title" id="hero-title">
+            <span class="hero__line">YOUR STYLE.</span>
+            <span class="hero__line hero__line--serif">YOUR RULES.</span>
+          </h1>
+          <p class="hero__lead">&ldquo;More than just a haircut. Discover your style at ANDA BARBER STUDIO.&rdquo;</p>
+
+          <div class="hero__actions">
+            <a class="btn btn--lime" href="#booking">Book Your Cut</a>
+            <a class="btn btn--ghost" href="#services">Explore Services</a>
+          </div>
+        </div>
+
+        <div class="hero__side">
+          <div class="hero__hours">
+            <span class="hero__hours-label">Open Daily</span>
+            <span class="hero__hours-time" data-hours="hero">09:00 &mdash; 21:00 WIB</span>
+          </div>
+          <figure class="hero__inset">
+            <img src="barber-interior.jpg" width="1600" height="1200"
+                 alt="Inside ANDA BARBER STUDIO: a hanging guitar, framed posters and a shampoo chair"
+                 loading="lazy" decoding="async">
+            <figcaption>The Studio</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ticker -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>YOUR STYLE. YOUR RULES.</span><span class="ticker__dot">&#10005;</span>
+        <span>HAIRCUT</span><span class="ticker__dot">&#10005;</span>
+        <span>GROOMING</span><span class="ticker__dot">&#10005;</span>
+        <span>HAIR TREATMENT</span><span class="ticker__dot">&#10005;</span>
+        <span>YOUR STYLE. YOUR RULES.</span><span class="ticker__dot">&#10005;</span>
+        <span>HAIRCUT</span><span class="ticker__dot">&#10005;</span>
+        <span>GROOMING</span><span class="ticker__dot">&#10005;</span>
+        <span>HAIR TREATMENT</span><span class="ticker__dot">&#10005;</span>
+      </div>
+    </div>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container services__grid">
+        <header class="services__head reveal">
+          <p class="eyebrow eyebrow--lime">Price List</p>
+          <h2 class="section-title" id="services-title">THE SERVICES.<br><em>THE DETAILS.</em></h2>
+          <p class="services__note">
+            Prices are listed in Indonesian Rupiah. Final prices for hair treatments
+            may need confirmation from the barber before your appointment.
+          </p>
+        </header>
+
+        <div class="services__list" id="services-list">
+          <noscript>
+            <p class="services__note">Please enable JavaScript to see the price list, or
+              <a href="https://wa.me/6281541478281">message us on WhatsApp</a>.</p>
+          </noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BOOKING ================= -->
+    <section class="section booking" id="booking" aria-labelledby="booking-title">
+      <div class="container booking__grid">
+        <div class="booking__intro reveal">
+          <p class="eyebrow">Reservation</p>
+          <h2 class="section-title" id="booking-title">BOOK<br><em>YOUR CUT.</em></h2>
+          <ol class="booking__steps">
+            <li><span>01</span>Choose a service and see its price.</li>
+            <li><span>02</span>Enter your details, date and time.</li>
+            <li><span>03</span>Review the summary, then send it on WhatsApp.</li>
+          </ol>
+          <p class="booking__disclaimer">
+            This form sends a booking <strong>request</strong> through WhatsApp.
+            Your appointment is not confirmed until our admin replies to your message.
+          </p>
+        </div>
+
+        <form class="booking__form reveal" id="booking-form" novalidate>
+          <div class="field" data-field="name">
+            <label for="name">Customer Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" maxlength="60"
+                   placeholder="Your name" aria-describedby="err-name" required>
+            <p class="field__error" id="err-name" role="alert"></p>
+          </div>
+
+          <div class="field" data-field="phone">
+            <label for="phone">WhatsApp Number</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" maxlength="20"
+                   placeholder="0812 3456 7890" aria-describedby="err-phone" required>
+            <p class="field__error" id="err-phone" role="alert"></p>
+          </div>
+
+          <div class="field" data-field="service">
+            <label for="service">Selected Service</label>
+            <select id="service" name="service" aria-describedby="err-service price-readout" required>
+              <option value="">Select a service</option>
+            </select>
+            <p class="field__error" id="err-service" role="alert"></p>
+          </div>
+
+          <div class="price-readout" aria-live="polite">
+            <span class="price-readout__label">Price</span>
+            <output id="price-readout" for="service">Select a service to see its price</output>
+          </div>
+
+          <div class="field-row">
+            <div class="field" data-field="date">
+              <label for="date">Date</label>
+              <input type="date" id="date" name="date" aria-describedby="err-date" required>
+              <p class="field__error" id="err-date" role="alert"></p>
+            </div>
+            <div class="field" data-field="time">
+              <label for="time">Preferred Time</label>
+              <input type="time" id="time" name="time" min="09:00" max="21:00" step="900"
+                     aria-describedby="err-time time-hint" required>
+              <p class="field__hint" id="time-hint">Open <span data-hours="hero">09:00 &mdash; 21:00 WIB</span></p>
+              <p class="field__error" id="err-time" role="alert"></p>
+            </div>
+          </div>
+
+          <div class="field" data-field="notes">
+            <label for="notes">Additional Notes <span class="optional">(optional)</span></label>
+            <textarea id="notes" name="notes" rows="3" maxlength="300"
+                      placeholder="Hairstyle reference, questions, anything we should know"></textarea>
+          </div>
+
+          <p class="form-alert" id="form-alert" role="alert" hidden></p>
+
+          <button class="btn btn--dark btn--block" type="submit">Confirm Booking</button>
+          <p class="form-note">
+            You will see a summary first. Then WhatsApp opens with your message ready to send.
+            Your booking is awaiting admin confirmation.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+    <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="gallery__head reveal">
+          <p class="eyebrow eyebrow--lime">Gallery</p>
+          <h2 class="section-title" id="gallery-title">THE ART<br><em>OF THE CUT.</em></h2>
+        </header>
+
+        <div class="gallery__grid">
+
+          <figure class="g-item g-item--work reveal">
+            <button type="button" class="g-btn" data-full="barber-at-work.jpg"
+                    data-caption="Barbers at work inside ANDA BARBER STUDIO"
+                    aria-label="Enlarge photo: barbers at work">
+              <img src="barber-at-work.jpg" width="1600" height="1200"
+                   alt="Two barbers cutting customers' hair inside ANDA BARBER STUDIO" loading="lazy" decoding="async">
+            </button>
+            <figcaption class="g-tag">At work</figcaption>
+          </figure>
+
+          <figure class="g-item g-item--interior reveal">
+            <button type="button" class="g-btn" data-full="barber-interior.jpg"
+                    data-caption="The ANDA BARBER STUDIO interior"
+                    aria-label="Enlarge photo: studio interior">
+              <img src="barber-interior.jpg" width="1600" height="1200"
+                   alt="Inside ANDA BARBER STUDIO: a hanging guitar, framed posters and a shampoo chair" loading="lazy" decoding="async">
+            </button>
+            <figcaption class="g-tag">The studio</figcaption>
+          </figure>
+
+          <figure class="g-item g-item--cuts reveal">
+            <button type="button" class="g-btn" data-full="haircut-01.jpg"
+                    data-caption="Haircut result" aria-label="Enlarge photo: haircut result">
+              <img src="haircut-01.jpg" width="1200" height="1200"
+                   alt="Haircut result at ANDA BARBER STUDIO" loading="lazy" decoding="async">
+            </button>
+            <figcaption class="g-tag">Haircut results</figcaption>
+          </figure>
+
+          <figure class="g-item g-item--price reveal">
+            <button type="button" class="g-btn" data-full="price-list.jpg"
+                    data-caption="Original ANDA BARBER STUDIO price list (reference photo, not a haircut result)"
+                    aria-label="Enlarge photo: original price list">
+              <img src="price-list.jpg" width="1200" height="1600"
+                   alt="Original ANDA BARBER STUDIO price list posted on the wall" loading="lazy" decoding="async">
+            </button>
+            <figcaption class="g-tag">Reference &middot; Original price list</figcaption>
+          </figure>
+
+          <figure class="g-item g-item--portrait reveal">
+            <button type="button" class="g-btn" data-full="barber-01.jpg"
+                    data-caption="Barber at ANDA BARBER STUDIO" aria-label="Enlarge photo: barber portrait">
+              <img src="barber-01.jpg" width="1200" height="1200"
+                   alt="Barber at ANDA BARBER STUDIO" loading="lazy" decoding="async">
+            </button>
+            <figcaption class="g-tag">Barber portraits</figcaption>
+          </figure>
+
+          <figure class="g-item g-item--treat reveal">
+            <button type="button" class="g-btn" data-full="treatment-01.jpg"
+                    data-caption="Hair treatment result" aria-label="Enlarge photo: hair treatment result">
+              <img src="treatment-01.jpg" width="1200" height="1200"
+                   alt="Hair treatment result at ANDA BARBER STUDIO" loading="lazy" decoding="async">
+            </button>
+            <figcaption class="g-tag">Hair treatment results</figcaption>
+          </figure>
+
+          <figure class="g-item g-item--details reveal">
+            <button type="button" class="g-btn" data-full="interior-01.jpg"
+                    data-caption="Interior detail of ANDA BARBER STUDIO" aria-label="Enlarge photo: interior detail">
+              <img src="interior-01.jpg" width="1600" height="900"
+                   alt="Interior detail of ANDA BARBER STUDIO" loading="lazy" decoding="async">
+            </button>
+            <figcaption class="g-tag">Interior details</figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__copy reveal">
+          <p class="eyebrow">About ANDA BARBER</p>
+          <h2 class="section-title" id="about-title">MORE THAN<br>JUST A <em>HAIRCUT.</em></h2>
+          <p class="about__text">
+            &ldquo;ANDA BARBER STUDIO is a grooming destination where personal style meets confidence.
+            From everyday haircuts to modern hair treatments, discover a style that represents you.&rdquo;
+          </p>
+          <ul class="about__tags" aria-label="Brand personality">
+            <li>Bold</li><li>Confident</li><li>Clean</li><li>Modern</li><li>Authentic</li>
+          </ul>
+        </div>
+
+        <div class="about__visual reveal">
+          <figure class="about__photo">
+            <img src="barber-interior.jpg" width="1600" height="1200"
+                 alt="Inside ANDA BARBER STUDIO: wall posters, a guitar and barber capes on hooks"
+                 loading="lazy" decoding="async">
+          </figure>
+          <figure class="about__logo">
+            <img src="logo-original.jpg" width="470" height="260"
+                 alt="ANDA BARBER STUDIO logo" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LOCATION ================= -->
+    <section class="section location" id="location" aria-labelledby="location-title">
+      <div class="container location__grid">
+        <div class="location__info reveal">
+          <p class="eyebrow eyebrow--lime">Location &amp; Contact</p>
+          <h2 class="section-title" id="location-title">FIND YOUR<br><em>WAY HERE.</em></h2>
+
+          <dl class="info-list">
+            <div>
+              <dt>Open Daily</dt>
+              <dd data-hours="long">09:00 AM &mdash; 09:00 PM WIB</dd>
+            </div>
+            <div>
+              <dt>WhatsApp</dt>
+              <dd><a data-phone-link href="https://wa.me/6281541478281" target="_blank" rel="noopener"><span data-phone-display>+62 815-4147-8281</span></a></dd>
+            </div>
+            <div>
+              <dt>TikTok</dt>
+              <dd><a data-tiktok-link href="https://www.tiktok.com/@anda_haircut?_r=1&amp;_t=ZS-9BOoiCOBdvY" target="_blank" rel="noopener"><span data-tiktok-handle>@anda_haircut</span></a></dd>
+            </div>
+            <div data-address-row hidden>
+              <dt>Address</dt>
+              <dd data-address></dd>
+            </div>
+          </dl>
+
+          <div class="location__actions">
+            <a class="btn btn--lime" data-maps-link href="https://share.google/aBwxF6rWPq5k4GynJ" target="_blank" rel="noopener">Open Google Maps</a>
+            <a class="btn btn--ghost" data-whatsapp-link href="https://wa.me/6281541478281" target="_blank" rel="noopener">WhatsApp Us</a>
+            <a class="btn btn--ghost" data-tiktok-link href="https://www.tiktok.com/@anda_haircut?_r=1&amp;_t=ZS-9BOoiCOBdvY" target="_blank" rel="noopener">Follow on TikTok</a>
+          </div>
+        </div>
+
+        <a class="map-card reveal" data-maps-link href="https://share.google/aBwxF6rWPq5k4GynJ" target="_blank" rel="noopener"
+           aria-label="Open ANDA BARBER STUDIO on Google Maps">
+          <svg class="map-card__pin" viewBox="0 0 24 24" width="56" height="56" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/>
+          </svg>
+          <span class="map-card__title">Find us on Google Maps</span>
+          <span class="map-card__text">The exact address and directions are on our Google Maps page.</span>
+          <span class="map-card__cta">Open Google Maps &rarr;</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= SOCIAL ================= -->
+    <section class="section social" id="social" aria-labelledby="social-title">
+      <div class="container social__inner reveal">
+        <div>
+          <p class="eyebrow">Social</p>
+          <h2 class="section-title" id="social-title">STAY SHARP.<br><em>STAY CONNECTED.</em></h2>
+        </div>
+        <div class="social__card">
+          <svg class="tiktok-icon" viewBox="0 0 24 24" width="48" height="48" aria-hidden="true" fill="currentColor">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+          </svg>
+          <p class="social__handle" data-tiktok-handle>@anda_haircut</p>
+          <a class="btn btn--dark" data-tiktok-link href="https://www.tiktok.com/@anda_haircut?_r=1&amp;_t=ZS-9BOoiCOBdvY" target="_blank" rel="noopener">Follow Our TikTok</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <p class="footer__name">ANDA BARBER STUDIO.</p>
+        <p class="footer__tagline">YOUR STYLE. YOUR RULES.</p>
+      </div>
+
+      <nav class="footer__col" aria-label="Footer navigation">
+        <h3>Navigate</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#location">Location</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <h3>Contact</h3>
+        <p><a data-phone-link href="https://wa.me/6281541478281" target="_blank" rel="noopener"><span data-phone-display>+62 815-4147-8281</span></a></p>
+        <h3>Social</h3>
+        <p><a data-tiktok-link href="https://www.tiktok.com/@anda_haircut?_r=1&amp;_t=ZS-9BOoiCOBdvY" target="_blank" rel="noopener">TikTok <span data-tiktok-handle>@anda_haircut</span></a></p>
+      </div>
+
+      <div class="footer__col">
+        <h3>Business Hours</h3>
+        <p>Every day &mdash; <span data-hours="footer">09:00&ndash;21:00 WIB</span></p>
+      </div>
+    </div>
+
+    <div class="container footer__legal">
+      <p>&copy; 2026 ANDA BARBER STUDIO. ALL RIGHTS RESERVED.</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="to-top" id="to-top" type="button" aria-label="Back to top">&uarr;</button>
+
+  <!-- Booking summary (shown before WhatsApp opens) -->
+  <dialog class="dialog" id="summary-dialog" aria-labelledby="summary-title">
+    <div class="dialog__body">
+      <p class="eyebrow eyebrow--lime">Review</p>
+      <h2 class="dialog__title" id="summary-title">BOOKING SUMMARY</h2>
+      <dl class="summary" id="summary-list"></dl>
+      <p class="dialog__warning">
+        This is a booking request, not a confirmed appointment. Your slot is confirmed only
+        after our admin replies to your WhatsApp message.
+      </p>
+      <div class="dialog__actions">
+        <button class="btn btn--ghost" type="button" id="summary-edit">Edit Details</button>
+        <a class="btn btn--lime" id="summary-send" href="#" target="_blank" rel="noopener">Send on WhatsApp</a>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Gallery lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+    <button class="lightbox__btn lightbox__close" type="button" id="lb-close" aria-label="Close photo">&times;</button>
+    <button class="lightbox__btn lightbox__prev" type="button" id="lb-prev" aria-label="Previous photo">&larr;</button>
+    <figure class="lightbox__figure">
+      <img id="lb-img" src="" alt="">
+      <figcaption id="lb-caption"></figcaption>
+    </figure>
+    <button class="lightbox__btn lightbox__next" type="button" id="lb-next" aria-label="Next photo">&rarr;</button>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
